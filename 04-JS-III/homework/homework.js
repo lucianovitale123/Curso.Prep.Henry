@@ -95,10 +95,11 @@ function arrayContiene(array, elemento) {
         var resultado = 0;
         for (var i = 0; i < numeros.length; i++)
             resultado = resultado + numeros[i]
+        return resultado;
     }
 
 } {
-    return resultado;
+
 }
 
 
